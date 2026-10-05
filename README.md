@@ -48,7 +48,7 @@ registration-portal/
 ├── package.json
 ├── package-lock.json
 └── vite.config.js
- 
+
 📌 Components
 RegistrationForm.jsx
 Main registration form component that handles Formik, Yup validation, API integration, and form submission.
@@ -86,7 +86,7 @@ Show errors      API Request
              Success     Error
                 ↓          ↓
         Success Message  Error Message
- 
+
 ✅ Form Validation
 Field	Validation
 Full Name	Required, minimum 3 characters
@@ -94,8 +94,8 @@ Email	Required, valid email format
 Phone Number	Required, exactly 10 digits
 Password	Required, minimum 6 characters
 Confirm Password	Must match password
- 
- 
+
+
 🔌 API Integration
 The application uses the Fetch API to send registration information through a POST request.
 const response = await fetch(API_URL, {
@@ -105,9 +105,9 @@ const response = await fetch(API_URL, {
   },
   body: JSON.stringify(userData)
 });
- 
+
 Note: The project currently uses a practice/mock REST API to demonstrate frontend API integration. It does not permanently store user registration data in a production database.
- 
+
 📱 Responsive Design
 The application is responsive and designed to work across:
 - Desktop
@@ -118,20 +118,20 @@ CSS media queries are used to adapt the registration form to different screen si
 ⚙️ Installation and Setup
 1. Clone the repository
 git clone https://github.com/saigrishma21/registration-portal.git
- 
+
 2. Navigate to the project
 cd registration-portal
- 
+
 3. Install dependencies
 npm install
- 
+
 4. Start the development server
 npm run dev
- 
+
 5. Open the application
 Open the URL displayed by Vite, usually:
 http://localhost:5173/
- 
+
 🧪 Testing
 The application can be tested by:
 1. Submitting the form with empty fields.
@@ -163,6 +163,9 @@ Key concepts demonstrated:
 - Password reset
 - User dashboard
 👩‍💻 Author
+Saigrishma
+GitHub:
+https://github.com/saigrishma21
 Saigrishma
 GitHub:
 https://github.com/saigrishma21
